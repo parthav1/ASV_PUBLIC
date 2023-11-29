@@ -9,7 +9,6 @@ import webbrowser
 from threading import Timer
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-all_data = pd.DataFrame()
 obj = ASV()   
 graph_data = obj.create_domain_dataframe()
     
